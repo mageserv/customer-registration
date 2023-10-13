@@ -4,7 +4,7 @@
     "description": "Magento 2 Customer Registration Module based on Elaraby Assignment",
     "require": {
         "php": ">=8.0",
-        "magento/module-customer": "100.2.*||100.3.*||100.4.*"
+        "magento/module-customer": ">=100.2.0"
     },
     "authors": [
         {
