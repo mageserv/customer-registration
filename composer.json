@@ -1,10 +1,9 @@
 {
     "name": "mageserv/customer-registration",
     "type": "magento2-module",
-    "description": "Magento 2 Customer Regstration Module based on Elaraby Assignment",
-    "version": "1.0.0",
+    "description": "Magento 2 Customer Registration Module based on Elaraby Assignment",
     "require": {
-        "php": "^7.1|^8.2",
+        "php": ">=8.0",
         "magento/module-customer": "100.2.*||100.3.*||100.4.*"
     },
     "authors": [
