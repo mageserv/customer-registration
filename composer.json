@@ -1,0 +1,26 @@
+{
+    "name": "mageserv/customer-registration",
+    "type": "magento2-module",
+    "description": "Magento 2 Customer Regstration Module based on Elaraby Assignment",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.1|^8.2",
+        "magento/module-customer": "100.2.*||100.3.*||100.4.*"
+    },
+    "authors": [
+        {
+            "name": "Ahmed Atef",
+            "role": "Magento 2 Master Certified",
+            "email": "tiefanovic.business@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Mageserv\\CustomerRegistration\\": ""
+        }
+    }
+}

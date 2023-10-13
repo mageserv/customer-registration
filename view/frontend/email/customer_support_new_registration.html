@@ -1,0 +1,24 @@
+<!--
+/**
+ * Copyright © Mageserv LTD. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<!--@subject {{trans "%store_name new registration" store_name=$store.frontend_name}} @-->
+<!--@vars {
+"var store.frontend_name":"Store Name",
+"var customer.email":"Customer Email",
+"var customer.name":"Customer Name"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+<p>{{trans "Hello %store_name Customer Support," store_name=$store.frontend_name}}</p>
+<br>
+<p>{{trans "You have new registration on your website, Please check your customers to see the new customers."}}</p>
+<br>
+<strong>{{trans "New Customer Data"}}</strong>
+<ul>
+    <li><strong>{{trans "Name:"}}</strong> {{var customer.name}}</li>
+    <li><strong>{{trans "Email:"}}</strong> {{var customer.email}}</li>
+</ul>
+{{template config_path="design/email/footer_template"}}
